@@ -1,3 +1,5 @@
+require "./bindings_ext" # see src/hedron/bindings_ext.cr for info.
+
 @[Link(ldflags: "-lui")]
 lib UI
   UIDRAWDEFAULTMITERLIMIT       =                                                             10.0
